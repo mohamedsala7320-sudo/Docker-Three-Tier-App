@@ -254,6 +254,16 @@ docker pull $DOCKERHUB_USER/task-api:1.0               # downloaded from Docker 
 docker images | grep task-api
 ```
 
+### Use the published image
+
+The image of this project is public on Docker Hub, so you can pull it without building anything:
+
+```bash
+docker pull mosala7320/task-api:1.0
+```
+
+🔗 [mosala7320/task-api on Docker Hub](https://hub.docker.com/r/mosala7320/task-api)
+
 > **Tip:** always deploy with a **fixed version tag** (`1.0`, `1.1`...) instead of `latest`. `latest` can change at any time, so you would not know exactly what is running and could not roll back reliably.
 
 ---
